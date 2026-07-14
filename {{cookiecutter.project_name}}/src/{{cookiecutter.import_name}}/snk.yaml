@@ -1,0 +1,9 @@
+tagline: "{{ cookiecutter.project_short_description }}"
+conda: False
+version: "{{cookiecutter.first_version}}"
+
+#cli:
+#  input:
+#    type: path
+#    short: "i"
+#    help: "Input sample sheet"

@@ -1,0 +1,13 @@
+{
+  "full_name": "John Sundh",
+  "email": "john.sundh@scilifelab.se",
+  "github_username": "johnne",
+  "github_repo_owner": "{{ cookiecutter.github_username }}",
+  "project_name": "NBIS-J_Doe_2605",
+  "package_name": "{{ cookiecutter.project_name.replace(' ', '-') }}",
+  "import_name": "{{ cookiecutter.package_name.lower().replace('-', '_') }}",
+  "project_short_description": "NBIS support project",
+  "pypi_username": "{{ cookiecutter.github_username }}",
+  "author_website": "https://nbis.se",
+  "first_version": "0.1.0"
+}
