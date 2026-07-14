@@ -9,7 +9,33 @@
 
 ## Installation
 
+1. Clone the repository:
+
+```bash
+git clone git@github.com:{{ cookiecutter.github_repo_owner }}/{{ cookiecutter.project_name }}.git
+```
+
+2. Install [pixi](https://pixi.prefix.dev/latest/installation/)
+
+3. Install the package
+
+```bash
+pixi run install
+```
+
+4. Activate the pixi shell
+
+```bash
+pixi shell
+```
+
 ## Usage
+
+To see available options and commands, run:
+
+```bash
+{{cookiecutter.import_name}} -h
+```
 
 ## Author
 
